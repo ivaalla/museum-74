@@ -280,3 +280,7 @@ footer {
 .expo-zo {
   width: 100%;
 }
+
+.expo-young .nav-link {
+  padding: 0.1rem 0;
+}
