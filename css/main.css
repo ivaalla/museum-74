@@ -335,3 +335,26 @@ a.v2h {
   height:110px;
   object-fit:cover;
 }
+
+.w160 {
+  width: 160px;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.w240 {
+  width: 240px;
+}
+
+.exp-fl {
+  float: left;
+  margin: 4px 10px 4px 0px;
+}
+
+
+.exp-fr {
+  float: right;
+  margin: 4px 0px 4px 10px;
+}
