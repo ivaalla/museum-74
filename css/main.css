@@ -160,6 +160,21 @@ header {
   min-height: 300px;
 }
 
+.poetry {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 0.9;
+}
+
+.poetry-outer {
+  justify-content: center;
+  display: flex;
+  margin-top: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
 #galery img:hover {
   width: 400px;
   top: 0;
@@ -339,6 +354,10 @@ a.v2h {
   width:140px;
   height:110px;
   object-fit:cover;
+}
+
+.w140 {
+  width: 140px;
 }
 
 .w160 {
