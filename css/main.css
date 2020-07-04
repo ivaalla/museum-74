@@ -76,9 +76,9 @@ h1 span {
   margin-top: -90px;
 }
 
-.expo_section p {
+/* .expo_section p {
   font-size: 1.05rem !important;
-}
+} */
 
 .expo_section:first-child {
   margin-top: 86px;
@@ -162,8 +162,7 @@ header {
 
 .poetry {
   font-style: italic;
-  font-weight: 500;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   line-height: 0.9;
 }
 
