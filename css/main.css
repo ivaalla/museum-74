@@ -297,6 +297,39 @@ footer {
   text-align: center;
 }
 
+.exp-3 {
+  width: 200px;
+  height: 148px;
+  display: inline-block;
+  position: relative;
+}
+
+.exp-3 img {
+  position: absolute;
+}
+
+a.eh3 img{
+  width:190px;
+  height: 148px;
+}
+
+a.v3h3 {
+  position: relative;
+  overflow:hidden;
+  height:148px;
+}
+
+.v3h3 img {
+  position: absolute;
+  top:11%;
+  /* left:50%; */
+  /* transform:translate(0%,-53%); */
+  transform:translateY(-11%);
+  width:190px;
+  height:148px;
+  object-fit:cover;
+}
+
 .exp {
   width: 150px;
   height: 112px;
@@ -384,7 +417,6 @@ a.v2h {
   float: left;
   margin: 4px 10px 4px 0px;
 }
-
 
 .exp-fr {
   float: right;
