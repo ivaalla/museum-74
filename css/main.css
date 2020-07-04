@@ -2,7 +2,7 @@ body, .full-width {
   background: url("../img/fon160.jpg");
   color: #EEEEEE;
   transparency: 0.9;
-  font-size: 1.2rem;
+  /* font-size: 1.1rem; */
 }
 
 h1, h2, h3 {
@@ -74,6 +74,10 @@ h1 span {
 #science {
   padding-top: 90px;
   margin-top: -90px;
+}
+
+.expo_section p {
+  font-size: 1.1rem !important;
 }
 
 .expo_section:first-child {
@@ -347,6 +351,10 @@ a.v2h {
 
 .w240 {
   width: 240px;
+}
+
+.w320 {
+  width: 320px;
 }
 
 .w360 {
