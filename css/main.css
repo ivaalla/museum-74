@@ -2,6 +2,7 @@ body, .full-width {
   background: url("../img/fon160.jpg");
   color: #EEEEEE;
   transparency: 0.9;
+  font-size: 1.2rem;
 }
 
 h1, h2, h3 {
@@ -346,6 +347,10 @@ a.v2h {
 
 .w240 {
   width: 240px;
+}
+
+.w360 {
+  width: 360px;
 }
 
 .exp-fl {
