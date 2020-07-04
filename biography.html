@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
 </head>
 
@@ -29,10 +30,14 @@
   <main>
     
     <!-- BEGIN EXPOSITION SECTION -->
-    <section class="expo_menu_section pb-5">
-      <div class="container">
-        <h2>Експозиції музею</h2>
-        <p>Експозиції створені за періодами біографії <strong>Марійки Підгірянки</strong> </p>
+    <section class="container expo_menu_section pb-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="col-12">Експозиції музею</h2>
+          <p class="col-12">Експозиції створені за періодами біографії <strong>Марійки Підгірянки</strong> </p>
+        </div>
+      </div>
+      <div class="row">
         <div class="card-deck">
           <div class="card bg-light">
             <a href="biography.html#expo_child">
@@ -79,9 +84,24 @@
     <!-- BEGIN EXPOSITION-CHILD SECTION -->
     <section class="expo_section pb-5">
       <div class="container expo_container">
-        <h2>Дитячі роки Марійки Підгірянки</h2>
-        <div>
-          <img src="img/34.jpg" width="600">
+        <div class="row">
+          <h2 class="col-12">Дитячі роки Марійки Підгірянки</h2>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <a href="img/IMG_0935.JPG" data-fancybox="expo-child" data-caption="1-1" class="exp eh2">
+              <img src="img/IMG_0935.JPG" alt="" />
+            </a>
+            <a href="img/photo 109.jpg" data-fancybox="expo-child" data-caption="1-2" class="exp v2h2">
+              <img src="img/photo 109.jpg" alt="" />
+            </a>
+            <a href="img/photo 095.jpg" data-fancybox="expo-child" data-caption="1-3" class="exp eh2">
+              <img src="img/photo 095.jpg" alt="" />
+            </a>
+            <a href="img/photo 098.jpg" data-fancybox="expo-child" data-caption="1-4" class="exp v2h2">
+              <img src="img/photo 098.jpg" alt="" />
+            </a>
+          </div>
         </div>
         <div>
           <p>Експозиційні стенди першого розділу “Дитячі роки Марійки Підгірянки” знайомлять нас з мальовничим
@@ -99,46 +119,34 @@
     </section>
 
     <!-- BEGIN EXPOSITION-YOUTH SECTION -->
-    <section class="expo_section expo-young pb-5">
+    <section class="expo_section expo-youth pb-5">
       <div class="container expo_container">
         <div class="row">
-          <h2>Юність поетеси</h2>
+          <h2 class="col-12">Юність поетеси</h2>
         </div>
         <div class="row">
-          <div class="col-1">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                <img src="img/34.jpg" class="expo-zo">
-              </a>
-              <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                <img src="img/35.jpg" class="expo-zo">
-              </a>
-              <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
-                <img src="img/38.jpg" class="expo-zo">
-              </a>
-              <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
-                <img src="img/43.jpg" class="expo-zo">
-              </a>
-            </div>
-          </div>
-          <div class="col-1"></div>
-          <div class="col-10">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <img src="img/34.jpg" class="expo-zo">
-              </div>
-              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                <img src="img/35.jpg" class="expo-zo">
-              </div>
-              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                <img src="img/38.jpg" class="expo-zo">
-              </div>
-              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                <img src="img/43.jpg" class="expo-zo">
-              </div>
-            </div>
+          <div class="col-12">
+            <a href="img/photo 096.jpg" data-fancybox="expo-youth" data-caption="2-1" class="exp v2h2">
+              <img src="img/photo 096.jpg" width="150" alt="" />
+            </a>
+            <a href="img/photo 099.jpg" data-fancybox="expo-youth" data-caption="2-2"class="exp v2h2">
+              <img src="img/photo 099.jpg" width="150" alt="" />
+            </a>
+            <a href="img/IMG_1439.JPG" data-fancybox="expo-youth" data-caption="2-3" class="exp eh2">
+              <img src="img/IMG_1439.JPG" alt="" />
+            </a>
+            <a href="img/IMG_1440.JPG" data-fancybox="expo-youth" data-caption="2-4" class="exp eh2">
+              <img src="img/IMG_1440.JPG" alt="" />
+            </a>
+            <a href="img/photo 092.jpg" data-fancybox="expo-youth" data-caption="2-5" class="exp eh2">
+              <img src="img/photo 092.jpg" alt="" />
+            </a>
+            <a href="img/photo 093.jpg" data-fancybox="expo-youth" data-caption="2-6" class="exp eh2">
+              <img src="img/photo 093.jpg" alt="" />
+            </a>
           </div>
         </div>
+        
         <div>
           <p>У другому розділі експозиції “Юність поетеси” представлено відомості про складання Марією Ленерт екстерном
             іспитів за восьмикласну жіночу школу в Коломиї, потім за Львівську жіночу вчительську семінарію і отримання
@@ -164,42 +172,8 @@
     <section class="expo_section expo-maturity pb-5">
       <div class="container expo_container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-12">
             <h2>Марійка Підгірянка – зріла особистість</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-2">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#expo-mat-1" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                <img src="img/34.jpg" class="expo-zo">
-              </a>
-              <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#expo-mat-2" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                <img src="img/35.jpg" class="expo-zo">
-              </a>
-              <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#expo-mat-3" role="tab" aria-controls="v-pills-messages" aria-selected="false">
-                <img src="img/38.jpg" class="expo-zo">
-              </a>
-              <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#expo-mat-4" role="tab" aria-controls="v-pills-settings" aria-selected="false">
-                <img src="img/43.jpg" class="expo-zo">
-              </a>
-            </div>
-          </div>
-          <div class="col-10">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade show active" id="expo-mat-1" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <img src="img/34.jpg" class="expo-zo">
-              </div>
-              <div class="tab-pane fade" id="expo-mat-2" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                <img src="img/35.jpg" class="expo-zo">
-              </div>
-              <div class="tab-pane fade" id="expo-mat-3" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                <img src="img/38.jpg" class="expo-zo">
-              </div>
-              <div class="tab-pane fade" id="expo-mat-4" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                <img src="img/43.jpg" class="expo-zo">
-              </div>
-            </div>
           </div>
         </div>
         <div>
@@ -246,9 +220,9 @@
     <section class="expo_section pb-5">
         <div class="container expo_container">
           <h2>Наша землячка</h2>
-          <div>
+          <!-- <div>
             <img src="img/43.jpg" width="600">
-          </div>
+          </div> -->
           <div>
             <p><a name="_Hlk4964076">Найдорожчими для нас, руднівчан, є експонати четвертого розділу &laquo;Наша
                 землячка&raquo;, які розповідають про переїзд родини Домбровських 1957 року в Рудно</a> &ndash; передмістя
@@ -324,6 +298,7 @@
 
 
   <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
