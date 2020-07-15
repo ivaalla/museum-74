@@ -11,45 +11,61 @@
   <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
 </head>
 
-<body>
+<body class="pt-16">
   <header>
-    <div class="d-flex flex-row heading justify-content-center full-width">
-      <div class="container fixed">
-        <div class="d-flex mb1 flex-wrap">
-          <h1 class="text-left col-sm-8">Кімната-музей<br><span>Марійки Підгірянки</span></h1>
-          <div class="d-flex justify-content-end col-sm-4 addr">
-              <div class="text-left">
-                  Львівська ЗОШ І – ІІІ ступенів № 74<br>
-                  м.Львів -&nbsp; Рудно, 79493<br>
-                  вул. І.Огієнка, 9
-                  тел.(032)297-87-96<br>
-                  e-mail: school74lv@gmail.com
-              </div>
+    <nav class="navbar navbar-expand-md navbar-dark canvas fixed-top pt-4">
+      <div class="container-sm flex-wrap">
+        <div class="row justify-content-between">
+          <a class="navbar-brand col-2" href="index.html#"><img src="img/logo.jpg"></a>
+          
+          <h1 class="d-none d-sm-block text-left col-sm-8 col-md-6 col-lg-8 col-xl-8">
+            Кімната-музей<br><span>Марійки Підгірянки</span></h1>
+          <div class="addr-new col-md-6 col-lg-4 col-xl-4">
+            <div class="text-left">
+              Львівська ЗОШ І – ІІІ ступенів № 74<br>
+              м.Львів -&nbsp; Рудно, 79493<br>
+              вул. І.Огієнка, 9
+              тел.(032)297-87-96<br>
+              e-mail: school74lv@gmail.com
+            </div>  
+          </div>
+          <div class="toggler-wrapper col-2">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
         </div>
-        <ul class="nav d-flex flex-wrap justify-content-between">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#">Про музей</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#history">Історія музею</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="biography.html">Експозиції</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="activity.html#science">Наукова робота</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="activity.html#activity">Екскурсії</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="activity.html#artworks">Творчість</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse row" id="navbarCollapse">
+          <ul class="nav d-flex flex-wrap justify-content-around main-menu">
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="index.html#">Про музей</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#">Історія музею</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#address">Контакти</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="biography.html">Експозиції</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="activity.html#science">Наукова робота</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="activity.html#activity">Екскурсії</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="activity.html#artworks">Творчість</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="container pt-3 pb-4 d-flex justify-content-center bg-jumbo slider">
+    </nav>
+    
+  </header>
+  <main>
+    <div class="container">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
         <!-- Indicators -->
@@ -82,63 +98,64 @@
         </a>
       </div>  
     </div>
-  </header>
-  <main>
-   
-    <!-- BEGIN ABOUT US SECTION -->
-    <section class="about_work_section">
+    <!-- BEGIN HISTORY SECTION -->
+    <section class="history_section mt-2">
       <div class="container">
         <div class="row">
+          <h3 class="col-12">Історія музею</h3>
+        </div>
+        <div class="row">
           <div class="col-xs-12 col-sm-12 left_holder col-md-12">
-            <p id="history"> На основі зібраного і систематизованого матеріалу з метою формування у молодого покоління національної
+            <p id="history" class="text-justify"> На основі зібраного і систематизованого матеріалу з метою формування у молодого покоління національної
               свідомості, любові до рідної землі, свого народу, розуміння нерозривного взаємозв’язку минулого, сучасного
               та майбутнього України 30 квітня 1998 року у приміщенні середньої загальноосвітньої школи №74 міста Львова
                засновано кімнату-музей Марійки Підгірянки - поетеси, 
               члена Спілки письменників України, яка останні роки свого життя провела в Рудно.</p>
           </div>
         </div>
-      </div>
-    </section>
-    <div class="mb3">&nbsp;</div>
-    <!-- BEGIN HISTORY SECTION -->
-    <section class="history_section">
-      <div class="container">
-        <h3>Історія музею</h3>
-        <!-- <div class="documents_container mb1 hidden-xs">
-          <img src="img/doc1.png">
-          <img src="img/doc2.png">
-          <img src="img/doc3.png">
-          <img src="img/doc4.png">
-        </div> -->
         <div class="row documents_container">
           <img class="col-xs-12 col-md-6 col-lg-3" src="img/doc1.png">
           <img class="col-xs-12 col-md-6 col-lg-3" src="img/doc2.png">
           <img class="col-xs-12 col-md-6 col-lg-3" src="img/doc3.png">
           <img class="col-xs-12 col-md-6 col-lg-3" src="img/doc4.png">
         </div>
-        <!-- <div id="activityCarousel" class="carousel slide" data-ride="carousel"> -->
         <div>
-          <p id="1998">1998 року у приміщенні середньої загальноосвітньої школи №74 міста Львова засновано кімнату-музей Марійки Підгірянки. Профіль музею:літературний.
+          <p id="1998" class="text-justify">1998 року у приміщенні середньої загальноосвітньої школи №74 міста Львова засновано кімнату-музей Марійки Підгірянки. Профіль музею:літературний.
           </p>
-          <p>Пошуково-дослідницька робота  проводилася з 1995 по 1998рр. вчителями та учнями школи під керівництвом ініціатора створення кімнати-музею учительки української мови і літератури 
+          <p class="text-justify">Пошуково-дослідницька робота  проводилася з 1995 по 1998рр. вчителями та учнями школи під керівництвом ініціатора створення кімнати-музею учительки української мови і літератури 
             <span id="kucherenko"><strong><i>Кучеренко Євгенії Маркіянівни</i></strong><img class="floating"  src="img/4.jpg" width="400"></a></span>, 
             а також заступника директора Шкурпило Марії Григорівни і директора школи Юрківа Михайла Федоровича.
           </p>
-          <p>Сьогодні у кімнаті-музеї працює рада музею, що складається з учителів та учнів школи. Керівником кімнати-музею є Карбовник Ірина Адамівна.Учні – екскурсоводи проводять екскурсії для учнів початкової школи (від 15 до 30 хвилин) та школярів 5-6-х класів і усіх бажаючих ( 45-60 хвилин).
+          <p class="text-justify">Сьогодні у кімнаті-музеї працює рада музею, що складається з учителів та учнів школи. Керівником кімнати-музею є Карбовник Ірина Адамівна. Учні – екскурсоводи проводять екскурсії для учнів початкової школи (від 15 до 30 хвилин) та школярів 5-6-х класів і усіх бажаючих ( 45-60 хвилин).
           </p>
         </div>
         <!-- <div class="scale3">
           <img src="img/2.jpg" width="200" data-toggle="tooltip" title="Стенди музею">
         </div> -->
-        <div>&nbsp;</div>
-        <div>&nbsp;</div>
               
+      </div>
+    </section>
+    <!-- BEGIN CONTACTS SECTION -->
+    <section id="address" class="contacts">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 left_holder col-md-12">
+            <h2>Наші контакти:</h2>
+            <div class="text-left">
+              Львівська ЗОШ І – ІІІ ступенів № 74<br>
+              м.Львів -&nbsp; Рудно, 79493<br>
+              вул. І.Огієнка, 9
+              тел.(032)297-87-96<br>
+              e-mail: school74lv@gmail.com
+            </div>  
+          </div>
+        </div>
       </div>
     </section>
 
   </main>
 
-  <footer id="contacts">
+  <footer id="contacts" class="d-none d-sm-flex">
     <div class="col-sm-4">Дизайн та розробка сайту:<br>Алла Іванина, 2019 рік<br>
     e-mail: rudnoschool@gmail.com </div>
     <div class="col-sm-4 text-center">
