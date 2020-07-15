@@ -157,6 +157,16 @@ header .row {
   }
 }
 
+@media screen and (max-width: 576px) {
+  h1 {
+    padding-left: 1vw;
+    font-size: 3vw;
+  }
+  h1 span {
+    font-size: 4.5vw;
+  }
+}
+
 
 .full-width {
   position: relative;
