@@ -5,8 +5,12 @@
 body, .full-width, .canvas {
   background: url("../img/fon160.jpg");
   color: #EEEEEE;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   /* font-size: 1.1rem; */
+}
+
+.canvas {
+  opacity: 0.95;
 }
 
 h1, h2, h3 {
@@ -414,7 +418,7 @@ header {
 }
 
 footer {
-  height: 60px;
+  min-height: 60px;
   border-top: 2px solid light-gray;
   background-color: lightgray;
   display: flex;
@@ -599,4 +603,90 @@ a.v2h2 {
 .exp-fr {
   float: right;
   margin: 4px 0px 4px 10px;
+}
+
+.fade {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.fade img {
+  width: 400px;
+  height: 400px;
+}
+
+html, body{
+  background-color: #e74c3c
+}
+.wrapper{
+  width:100%;
+  padding-top: 20px;
+  text-align:center;
+}
+h2{
+  font-family:sans-serif;
+  color:#fff;
+}
+.carousel1{
+  width:90%;
+  margin:0px auto;
+}
+.slick-slide{
+  margin:10px;
+}
+.slick-slide img{
+  width:100%;
+  border: 2px solid #fff;
+}
+
+.slider {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.slider img {
+  width: 200px;
+  height: auto;
+}
+.slider1 {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.slider1 img {
+  width: 200px;
+  height: 200px;
+}
+
+.slider1-fade {
+  width: 450px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.slider1-fade img {
+  width: 100%;
+}
+
+.slider-center {
+  width: 650px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.slider-center img {
+  width: 180px;
+}
+
+.slick-center {
+  -webkit-transform: scale(1.75);
+  -moz-transform: scale(1.75);
+  transform: scale(1.75);
+  transition: all 1s;
+}
+
+.slider-center .slick-list { 
+  padding:45px 60px !important;
+  margin-left:20px !important;
+  margin-right:20px !important;
 }
